@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>表格结构与属性</title>
+  <style>
+    table, table *{
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h2>表格结构与属性</h2>
+  <table>
+    <!-- 头 -->
+    <thead>
+      <tr>
+        <td colspan="3">表格头</td>
+      </tr>
+    </thead>
+    <!-- 内容 -->
+    <tbody>
+      <tr>
+        <td>表格body部分</td>
+        <td>表头合并三列</td>
+        <td>表头合并三列</td>
+      </tr>
+      <tr>
+        <td rowspan="2">合并两行</td>
+        <td>单元格(行1)</td>
+        <td>单元格(行1)</td>
+      </tr>
+      <tr>
+        <td>单元格(行2)</td>
+        <td>单元格(行2)</td>
+      </tr>
+    </tbody>
+    <!-- 尾 -->
+    <!-- <tfoot>
+      <tr>
+        <td></td>
+      </tr>
+    </tfoot> -->
+  </table>
+</body>
+</html>
